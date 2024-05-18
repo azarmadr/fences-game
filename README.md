@@ -1,3 +1,7 @@
+# Fences game with a solver
+
+A game to play fences/slither link with solvers. Player can add new rules to the game to assist them in playing.
+
 # A Bevy game template
 
 Template for a Game using the awesome [Bevy engine][bevy] featuring out of the box builds for Windows, Linux, macOS, Web (Wasm), Android, and iOS.

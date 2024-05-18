@@ -1,8 +1,8 @@
 [package]
-name = "bevy_game" # ToDo
+name = "fences_game"
 version = "0.1.0"
 publish = false
-authors = ["Niklas Eicker <git@nikl.me>"] # ToDo: you are the author ;)
+authors = ["Azhar Madar Shaik<git@azarmadr>"]
 edition = "2021"
 exclude = ["dist", "build", "assets", "credits"]
 
@@ -70,6 +70,7 @@ webbrowser = { version = "0.8", features = ["hardened"] }
 # keep the following in sync with Bevy's dependencies
 winit = { version = "0.29", default-features = false }
 image = { version = "0.24", default-features = false }
+fences = { version = "0.1.0", path = "fences" }
 
 [build-dependencies]
 embed-resource = "1"
